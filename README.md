@@ -26,7 +26,7 @@ Our video demonstration is at: https://youtu.be/uMC5dMygz2I
 ### Team Members
 ---
 - *Yuming Cui*
-- *WenKai Fang*
+- *Wenkai Fang*
 - *Yunzhi Tang*
 
 
