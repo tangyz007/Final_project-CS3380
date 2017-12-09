@@ -149,4 +149,4 @@ Our video demonstration is at: https://youtu.be/uMC5dMygz2I
    
    This step is dropping a specific table of database.
 ### Entity Relationship Diagram (ERD)
-![](https://drive.google.com/open?id=1r1eMPgvh-M0yNwSh2UDKK_MCmV8hlIwu)
+![](https://github.com/tangyz007/Final_project-CS3380/blob/master/Entity%20Relationship%20Diagram%20(ERD).jpg)
