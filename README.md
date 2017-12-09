@@ -34,8 +34,12 @@
 
 > An easier way to figure out which dish you want best for the next meal
 
-- The customer can see the menu of food from 5 different contries, also the picture and the comment about the dishes.
-- The manager can login to the website, change the infomation of the dishes, add dishes and delete the dishes. 
+>This application is for a restraut to show customers its dishes and to let manager of restraut add, delete and update dishes.
+ For viewing the home webpage, it would let you choose view this website as manger or customers. 
+ 
+- The customer can see the menu of food from 5 different contries(this is done by select sql and get result from database), also the picture and the comment about the dishes.
+- The manager can login to the website, update information of the dishes, add dishes and delete the dishes (this is done by inserting, deleting and updating table in database). 
+- The manager can also add a type of cuisine after logged-in( this is done by creating new table in database).
 
 
 
@@ -106,8 +110,8 @@
 ---
 
 - **Create** 
-   1. Create countries, for example "China", "Italia". 
-   2. Create a new country, clicking on the `Create a new Cuisine Table` button, a new table will be created using create function. 
+   1. Create type of cuisine, for example "America", "England". 
+   2. Create a new type, clicking on the `Create a new Cuisine Table` button, a new table will be created using create function. 
       
 - **Read**
    1. Read `Menu`, `Price`, `Ingredients` by manager from one table.
