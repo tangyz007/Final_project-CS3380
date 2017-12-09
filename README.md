@@ -1,6 +1,7 @@
 # Final_project-CS3380
 
-
+Please visit our Food Order System application at this url:http://example123456.rf.gd/login.php
+Our video demonstration is at: https://youtu.be/uMC5dMygz2I
 
 ## World Kitchen
 ---
@@ -34,8 +35,10 @@
 
 > An easier way to figure out which dish you want best for the next meal
 
-- The customer can see the menu of food from 5 different contries, also the picture and the comment about the dishes.
-- The manager can login to the website, change the infomation of the dishes, add dishes and delete the dishes. 
+- This is a website for a resturaut. This website couold let customers to view dishes of restraut and let manger of resutraut to add, delete and update dishes. In home page, viewer will be asked to login as manger or view as customer. 
+
+- The customer version can see the menu of food from 5 different types of cuisine with pictures and leave the comment about the dishes.
+- The manager version can login to the website, add dishes, delete the dishes and update dishes information. Manager could also add a new type of cuisine.  
 
 
 
@@ -102,29 +105,47 @@
 
 
 
-### Explanation of Where the App is doing create, read, update, and delete
+### Explanation of Where the App is doing create, read, update, insert, delete and drop
 ---
 
 - **Create** 
-   1. Create countries, for example "China", "Italia". 
-   2. Create a new country, clicking on the `Create a new Cuisine Table` button, a new table will be created using create function. 
-      
+   1. Create new type of cuisine, for example "America", "England".  
+   -Create a new table by getting table name from input of user. 
+   
+   This step is creating a new table in our database. 
+      
 - **Read**
    1. Read `Menu`, `Price`, `Ingredients` by manager from one table.
    2. Read `Menu`, `Price`, `Ingredients` by customer from one table.
    3. Display all dishes from 5 countries by manager. 
    4. Display all dishes from 5 countries by customer.
+   -Select table and display it by getting table name from input of user.
    
+   This step is using select sql to get result from database and display result
+   
+- **Insert**
+
+  1.Add a new dish of a type.
+  -Create new dish by getting input 'Menu', 'Price', 'Ingredients' and 'Sauce' of user.
+  
+  This step is inserting new data into a table of database.
+  
 - **Update**
-   1. Create a new row in a table, this can only be done by manager.
-   2. Change the price of a dish in a table, this can only be done by manager.
+   1. Change price of a dish in certain type. 
+   - Change the price of a dish in a table by getting input new price and dish id from user.
+   
+   This step is updating 'Price' data for a specific dish id in table of database.
    
  - **Delete**
-   1. Delete a country table.
-   2. Delete a dish inside a country table.
-   3. Delete a column, for example price, and ingredients inside a country table.
+   1. Delete a dish inside a country table.
+   - Delete a dish by getting input dish 'Menu' from user.
    
-   
-### Entity Relationship Diagram (ERD)
+   This step is delete specific data in a table of database.
 
+ - **Drop**
+   1. Drop a type of cuisine in manager version.
+   - Drop a table by getting input of table name from user.
+   
+   This step is dropping a specific table of database.
+### Entity Relationship Diagram (ERD)
 
